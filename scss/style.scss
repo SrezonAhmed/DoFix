@@ -1,0 +1,60 @@
+@use "colours";
+@use "buttons";
+@use "media";
+
+//navbar and footer
+@use "footer";
+@use "navbar";
+//core and container styles
+@use "core";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+  background: colours.$grey;
+  font-family: 'Rammetto One', sans-serif;
+  min-height: 100vh;
+}
+
+footer {
+
+}
+
+.container {
+  text-align: center;
+
+  header {
+    h1 {
+      padding: 2rem 0;
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+
+  .enter-card {
+    padding: 2rem;
+    text-align: center;
+    //display: flex;
+
+    .edit-input {
+      margin: 0 2rem;
+
+      .deleteButton {
+        background: green;
+        display: flex;
+      }
+
+    }
+
+  }
+}
+
