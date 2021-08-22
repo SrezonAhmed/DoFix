@@ -40,17 +40,19 @@ footer {
     }
   }
 
-  .enter-card {
+  .cards-container {
     padding: 2rem;
     text-align: center;
-    //display: flex;
 
-    .edit-input {
-      margin: 0 2rem;
+    .cards {
+      cursor: pointer;
 
+      .edit-input {
+        margin: 0 2rem;
+
+      }
       .deleteButton {
-        background: green;
-        display: flex;
+
       }
 
     }

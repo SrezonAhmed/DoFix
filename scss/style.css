@@ -22,16 +22,15 @@ body {
   font-size: 4rem;
   text-align: center;
 }
-.container .enter-card {
+.container .cards-container {
   padding: 2rem;
   text-align: center;
 }
-.container .enter-card .edit-input {
-  margin: 0 2rem;
+.container .cards-container .cards {
+  cursor: pointer;
 }
-.container .enter-card .edit-input .deleteButton {
-  background: green;
-  display: flex;
+.container .cards-container .cards .edit-input {
+  margin: 0 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
