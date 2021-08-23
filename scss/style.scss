@@ -40,23 +40,56 @@ footer {
     }
   }
 
-  .cards-container {
-    padding: 2rem;
+  .lists-container {
+    margin: 37px 0;
+    display: flex;
+    flex: 1;
+    width: 100%;
     text-align: center;
+    justify-content: center;
 
-    .cards {
-      cursor: pointer;
 
-      .edit-input {
-        margin: 0 2rem;
+    .lists {
+
+      flex-flow: column;
+      width: 100%;
+      background-color: slategrey;
+
+      min-width: 250px;
+      max-width: 400px;
+      height: 100%;
+      min-height: 300px;
+
+      padding: 8px;
+      margin: 0 15px;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      .cards-container {
+        padding: 1rem 0;
+        text-align: center;
+
+        .cards {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+
+          .edit-input {
+
+
+
+          }
+
+          .deleteButton {
+
+          }
+
+        }
 
       }
-      .deleteButton {
-
-      }
-
     }
-
   }
 }
 
