@@ -51,7 +51,20 @@ body {
 .container .lists-container .lists .cards-container .cards {
   cursor: pointer;
   display: flex;
+  text-align: center;
   justify-content: center;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 7px 9px;
+  margin: 10px 0;
+}
+.container .lists-container .lists .cards-container .cards .edit-input {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.container .lists-container .lists .cards-container .cards .deleteButton {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
